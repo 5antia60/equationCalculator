@@ -1,6 +1,3 @@
-//Santiago Delgado RA:200791
-//Erick Santana RA:200577
-
 #include <stdio.h>
 #include <conio.h>
 #include <math.h>
@@ -227,7 +224,7 @@ void dicotomia(int qTermos, float *coeficiente, int *expoente, float intervaloA,
 		}
 		
 		media = (intervaloA+intervaloB) /2;
-		//Formar e calcular f(m) de acordo com a equação
+		//Formar e calcular f(m) de acordo com a equaÃ§Ã£o
 		fm = 0;
 		for(i=0; i<qTermos; i++)
 		{
@@ -242,7 +239,7 @@ void dicotomia(int qTermos, float *coeficiente, int *expoente, float intervaloA,
 	
 	printf("\nA raiz da funcao e %.3f com erro de %.3f (< %.3f).\n", media, fm, precisao);
 	
-	//ceil() = funcao que retorna o primeiro inteiro encontrado maior do que o valor resultado da operação
+	//ceil() = funcao que retorna o primeiro inteiro encontrado maior do que o valor resultado da operaÃ§Ã£o
 	printf("\nA quantidade de interacoes e aproximadamente %.2f (k = %.2f).", ceil(k), k);
 }
 
